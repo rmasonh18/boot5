@@ -11,7 +11,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Signlog from '../components/Signlog'
 import Script from 'next/script'
 
 
@@ -66,8 +65,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* new component */}
-      <Signlog />
       <Script src='https://app.mymusicstaff.com/Widget/v2/Login.ashx' />
 
       <Footer />
